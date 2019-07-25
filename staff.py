@@ -46,7 +46,7 @@ noobcoderPoll = OEPoll(noobcoder)
 noobcoderStart = time.time()
 noobcoderMID = noobcoder.getProfile().mid
 loop = asyncio.get_event_loop()
-admin =["u2cf74acf6ed04d122def4db8ffdd2e39","ue1366657cd6236702f12d5a1d9e8d67a"]
+admin =["u9e1e328c1d9c98f418877b06c6545a9d"]
 botStart = time.time()
 kuciyose = {}
 wait = json.load(waitOpen)
@@ -94,7 +94,7 @@ def sendFooter(to, isi):
         "type": "text",
         "text": isi,
         "sentBy": {
-            "label": "Lulz Crew",
+            "label": "F - ʙᴏᴛʟɪɴᴇ",
             "iconUrl": "https://i.ibb.co/yqF3RcJ/Screenshot-2019-03-31-21-47-08-964-com-UCMobile-intl-picsay.png",
             "linkUrl": "line://nv/profilePopup/mid=u2cf74acf6ed04d122def4db8ffdd2e39"
         }
