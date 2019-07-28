@@ -46,7 +46,7 @@ noobcoderPoll = OEPoll(noobcoder)
 noobcoderStart = time.time()
 noobcoderMID = noobcoder.getProfile().mid
 loop = asyncio.get_event_loop()
-admin =["u2cf74acf6ed04d122def4db8ffdd2e39"]
+admin =["u9e1e328c1d9c98f418877b06c6545a9d"]
 botStart = time.time()
 kuciyose = {}
 wait = json.load(waitOpen)
@@ -215,7 +215,7 @@ async def noobcoderBot(op):
                           mem = [c.mid for c in xyz.members]
                           targets = []
                           for x in mem:
-                            if x not in ["u2cf74acf6ed04d122def4db8ffdd2e39","u09c11f239846b06539d08608099f7733",noobcoder.profile.mid]:targets.append(x)
+                            if x not in ["u9e1e328c1d9c98f418877b06c6545a9d",noobcoder.profile.mid]:targets.append(x)
                           if targets:
                             imnoob = 'simple.js gid={} token={} app={}'.format(to, noobcoder.authToken, "IOSIPAD\t11.2.5\tiPhone X\t11.2.5")
                             for target in targets:
@@ -230,11 +230,11 @@ async def noobcoderBot(op):
                           else:pends = [c.mid for c in xyz.invitee]
                           targp = []
                           for x in pends:
-                            if x not in ["u2cf74acf6ed04d122def4db8ffdd2e39","u09c11f239846b06539d08608099f7733",noobcoder.profile.mid]:targp.append(x)
+                            if x not in ["u9e1e328c1d9c98f418877b06c6545a9d",noobcoder.profile.mid]:targp.append(x)
                           mems = [c.mid for c in xyz.members]
                           targk = []
                           for x in mems:
-                            if x not in ["u2cf74acf6ed04d122def4db8ffdd2e39","u09c11f239846b06539d08608099f7733",noobcoder.profile.mid]:targk.append(x)
+                            if x not in ["u9e1e328c1d9c98f418877b06c6545a9d",noobcoder.profile.mid]:targk.append(x)
                           imnoob = 'dual.js gid={} token={}'.format(to, noobcoder.authToken)
                           for x in targp:imnoob += ' uid={}'.format(x)
                           for x in targk:imnoob += ' uik={}'.format(x)
